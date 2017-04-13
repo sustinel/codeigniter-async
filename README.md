@@ -1,0 +1,1 @@
+Asynchronous Process means that a process operates independently of other process. It executes process in background.
