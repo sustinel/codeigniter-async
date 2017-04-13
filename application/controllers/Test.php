@@ -10,7 +10,7 @@ class Test extends CI_Controller {
            parent::__Construct();
            $this->load->helper(array('form', 'url'));
            $this->load->model('test_model');
-           $this->load->library('mylibrary');
+           $this->load->library('asynclibrary');
          }
           
         /**
@@ -43,7 +43,7 @@ class Test extends CI_Controller {
             $user_email  = $_POST['email'];
             $message     = "Testing";
           
-            $this->email->from('heyrajcool@gmail.com', 'Around');
+            $this->email->from('wolfy@gmail.com', 'Wolfy Singh');
             $this->email->to($user_email);
             $this->email->subject("test");
             $this->email->message($message); 
