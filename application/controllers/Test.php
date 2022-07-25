@@ -28,7 +28,7 @@ class Test extends CI_Controller {
                                'email' => "jagroop@gmail.com" );
  
                $this->mylibrary->do_in_background($url, $param);
-               $this->mylibrary->do_in_background($urls, $param1);
+               $this->mylibrary->do_in_background($url1, $param1);
              
         }
          
